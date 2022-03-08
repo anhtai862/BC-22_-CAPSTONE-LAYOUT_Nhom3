@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    
+}
+
+
+
+/* Header  */
+.header {
+    position: fixed;
+    top: 40px;
+    right: 0;
+    left: 0;
+    z-index: 1005;
+    background-color: white;
+    
+
+}
+.header .navbar-brand span{
+    
+        font-size: 2rem;
+        color: #179a46;
+
+}
+.navbar {
+    padding: 0 120px;
+    margin: 10px 0;
+}
+.menu li{
+    margin: 0 10px;
+}
+.menu li a {
+    color: black;
+    padding: 14px 0;
+    font-size:16px;
+    transition: all 0.5s;
+}
+
+.menu li.active a{
+    color: #179a46;
+
+}
+.menu li:hover a {
+    color: #179a46;
+
+}
+
+.menu li::after{
+    content: "";
+    background-color: #179a46;
+    width: 0%;
+    height: 2px;
+    display: block;
+    transition: all 0.5s;
+
+
+}
+
+.menu li.active::after{
+    width: 100%;
+
+}
+.menu li:hover::after{
+    width: 100%;
+
+}
+
+
+
+/* Carousel  */
+
+.carousel-item {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+
+
+}
+
+
+.carousel-item:nth-child(1){
+    
+    background-image: url(./imagePoochCare/banner1.jpg);
+    
+}
+.carousel-item:nth-child(2){
+    background-image: url(./imagePoochCare/banner2.jpg);
+}
+.carousel-item:nth-child(3){
+    background-image: url(./imagePoochCare/banner3.jpg);
+}
+.carousel-item:nth-child(4){
+    background-image: url(./imagePoochCare/banner4.jpg);
+}
+
+.carousel-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #0c0c0c;
+    opacity: .6;
+
+}
+
+.carousel__tittle
+{
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.carousel__tittle h5{
+    font-size: 66px;
+    line-height: 76px;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+}
+.carousel__tittle p{
+
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    margin-bottom: 55px;
+    
+}
+
+.carousel__tittle a{
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+.carousel__tittle a.active{
+background-color: white;
+color: #179a46;
+}
+
+.carousel__tittle a:hover {
+    background-color: white;
+    color: #179a46;
+    transition: all 0.5s;
+}
+
+
+.carousel__tittle.tittle2{
+
+    left: 42%;
+} 
+
+.carousel-indicators li {
+    border-radius: 25px;
+    margin: 30px 5px;
+    height: 10px;
+    width: 10px;
+    border-top: 0px ;
+    border-bottom: 0px ;
+    transition: all 0.5s;
+
+
+
+    
+}  
+.carousel-indicators li.active {
+    
+    width: 30px;
+    
+    background-color: #179a46;
+
+    }
+
+
+
+
+    /* Right Sidebar  */
+
+.right-sidebar {
+    width: 90px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    margin-top: 60px;
+    position: fixed;
+    z-index: 1000;
+}   
+
+.menu-sidebar
+{
+    background: #0D1326;
+    margin-bottom: 70px;
+    top: 0;
+    right: 0;
+    padding-top: 70px;
+    bottom: 0;
+    padding: 40px 5px;
+    z-index: 9999;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.menu-sidebar .demo
+
+{
+    border-top: 1px solid #41414d;
+    padding-top: 60px;
+}
+
+.menu-sidebar .demo a {
+    color: #e6ebff;
+    opacity: .6;
+    text-decoration: none;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+.menu-sidebar .demo a:hover{
+    opacity: 1.6;
+
+
+    }
+
+
+/* .icon-back {
+    display: inline;
+} */
+
+
+/* Pull right  */
+.pull-right {
+    position: fixed;
+    right: 0;
+    top: 55px;
+    width: 90px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.pull-right span
+{
+   background: #0D1326;
+   opacity: .5;
+   height: 50px;
+   width: 50px;
+   line-height: 50px;
+   text-align: center;
+   color: #e6ebff;
+   font-size: 26px;
+    cursor: pointer;
+    border-radius: 50px;
+
+
+}
+
+
+
+/* about  */
+
+.about {
+    padding: 100px 0;
+}
