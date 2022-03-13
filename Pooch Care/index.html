@@ -10,13 +10,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="./style.css">
-</head>
+
+    
+
+  </head>
     <body>
         <!-- Pull right  -->
         <div class="pull-right">
-            <span class="fa title-open-right-sidebar fa-angle-double-right "></span>
+          
+           <span class="fa title-open-right-sidebar fa-angle-double-right "></span>
             
-
         </div>
         <!-- Right Sidebar  -->
         <div class="right-sidebar" >
@@ -24,15 +27,16 @@
                 <div class="menu-sidebar">
                     <div class="demo">
                         <a href="#" >
-                            <span class="icon-back">
+                            <span class="icon -back">
                                 <span class="fa fa-arrow-left"></span>
                             </span>
     
                             <span>Back</span>
                             
+                            
                         </a>
                         <a href="#" >
-                            <span class="icon-dơwn">
+                            <span class="icon -dơwn">
                                 <span class="fa fa-download"></span>
     
                             </span>    
@@ -40,7 +44,7 @@
                             
                         </a>
                         <a href="#" >
-                            <span class="icon-buy">
+                            <span class="icon -buy">
                                 <span class="fa fa-shopping-cart"></span>
                             </span>
     
@@ -56,7 +60,7 @@
         </div>
         <!-- Header  -->
         <header class="header ">
-            <!-- <div class="container"> -->
+            <div class="container">
                 <nav class="navbar navbar-expand-md ">
                     <!-- Brand -->
                     <a class="navbar-brand" href="#">
@@ -65,7 +69,7 @@
                   
                     <!-- Toggler/collapsibe Button -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                      <span class="navbar-toggler-icon"></span>
+                      <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
                     </button>
                   
                     <!-- Navbar links -->
@@ -92,9 +96,29 @@
                        
 
                       </ul>
-                      <a ><i class="fa fa-moon"></i></a>
+                      
 
                     </div>
+                    <div class="mobile-position">
+                      <nav class="navigation">  
+                        <div class="theme-switch-wrapper"></div>  
+                            <div class="mode-container">
+                              
+                              
+                              <img id="iconMode"  src="./dark theme icon/moon.png" alt="" />
+
+                              
+    
+                            </div>
+                          </label>
+
+                        </div>
+                        
+
+                      </nav>
+
+                    </div>
+                    
                   </nav>
 
             </div>
@@ -102,61 +126,65 @@
         </header>
 
         <!-- Carousel   -->
-        <div id="demo" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active">
-              </li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-              <li data-target="#demo" data-slide-to="3"></li>
-
-            </ul>
-          
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-                
-              <div class="carousel-item active">
-                <div class="carousel__tittle">
-                        <h5>Quality Things for<br/> Loving Pets</h5>
-                    <p>Keeps your Pet Smiling</p>
-                    <a class="active" href="#">Read More</a>
-                    <a href="#">Contact Us</a>
-
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel__tittle tittle2 ">
-                        <h5>Delivering happiness for Pets</h5>
-                    <p>For the love of pets </p>
-                    <a class="active" href="#">Read More</a>
-                    <a href="#">Contact Us</a>
-
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel__tittle">
-                    <h5>Quality Things for<br/> Loving Pets</h5>
-                    <p>Keeps your Pet Smiling</p>
-                    <a class="active" href="#">Read More</a>
-                    <a href="#">Contact Us</a>
-
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel__tittle tittle2">
-                        <h5>Delivering happiness for Pets</h5>
-                    <p>For the love of pets</p>
-                    <a class="active" href="#">Read More</a>
-                    <a href="#">Contact Us</a>
-
-                </div>
-              </div>
-            </div>
-          
         
-          </div>
+        <section class="main-slider">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active">
+                  </li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#demo" data-slide-to="3"></li>
+    
+                </ul>
+              
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    
+                  <div class="carousel-item active">
+                    <div class="carousel__tittle">
+                            <h5>Quality Things for<br/> Loving Pets</h5>
+                        <p>Keeps your Pet Smiling</p>
+                        <a class="active" href="#">Read More</a>
+                        <a href="#">Contact Us</a>
+    
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel__tittle tittle2 ">
+                            <h5>Delivering happiness for Pets</h5>
+                        <p>For the love of pets </p>
+                        <a class="active" href="#">Read More</a>
+                        <a href="#">Contact Us</a>
+    
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel__tittle">
+                        <h5>Quality Things for<br/> Loving Pets</h5>
+                        <p>Keeps your Pet Smiling</p>
+                        <a class="active" href="#">Read More</a>
+                        <a href="#">Contact Us</a>
+    
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel__tittle tittle2">
+                            <h5>Delivering happiness for Pets</h5>
+                        <p>For the love of pets</p>
+                        <a class="active" href="#">Read More</a>
+                        <a href="#">Contact Us</a>
+    
+                    </div>
+                  </div>
+                </div>
+              
+            
+              </div>
+
+        </section>
 
 
           <!-- About Us  -->
@@ -165,8 +193,8 @@
             <div class="container">
                 <div class="about__title">
                     <h6 >About Us</h6>
-                    <h3>We love your pets like they are our own</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis.</p>
+                    <h3>We love your pets like they are our<br/> own</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio<br/>  voluptatem tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus<br/>  et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis<br/>  sodales quis.</p>
                     <a href="#read">Read More</a>
 
                 </div>
@@ -175,11 +203,619 @@
 
           </section>
 
+        <!-- Feature  -->
+
+        <section class="feature">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-0 area-box">
+                  <div class="icon">
+                    <span class="fa fa-snowflake"></span>
+
+                  </div>
+                  <h4>
+                    <a href="#">Dog Walking</a>
+                  </h4>
+
+                  <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                  <a href="#" class="read">Read More</a>
+                </div>
+
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-0 area-box">
+                  <div class="icon">
+                    <span class="fa fa-utensils"></span>
+                    
+
+                  </div>
+                  <h4>
+                    <a href="#">Healthy Meals</a>
+                  </h4>
+
+                  <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                  <a href="#" class="read">Read More</a>
+                </div>
+
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-0 area-box">
+                  <div class="icon">
+                    <span class="fa fa-sign-language"></span>
+
+                  </div>
+                  <h4>
+                    <a href="#">Pet Sitting</a>
+                  </h4>
+
+                  <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                  <a href="#" class="read">Read More</a>
+                </div>
+
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-0 area-box">
+                  <div class="icon">
+                    <span class="fa fa-sitemap"></span>
+
+                  </div>
+                  <h4>
+                    <a href="#">Dog Activities</a>
+                  </h4>
+
+                  <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                  <a href="#" class="read">Read More</a>
+                </div>
+
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-0 area-box">
+                  <div class="icon">
+                    <span class="fa fa-shower"></span>
+
+                  </div>
+                  <h4>
+                    <a href="#">Pet Daycare</a>
+                  </h4>
+
+                  <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                  <a href="#" class="read">Read More</a>
+                </div>
+
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-0 area-box">
+                  <div class="icon">
+                    <span class="fa fa-user-md"></span>
+
+                  </div>
+                  <h4>
+                    <a href="#">Pet Grooming</a>
+                  </h4>
+
+                  <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                  <a href="#" class="read">Read More</a>
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- Services  -->
+
+        <section class="services">
+          <div class="services__content">
+            <div class="container">
+              <div class="row">
+                <div class="services-img col-lg-6">
+                  <img src="./imagePoochCare/ab.jpg" alt="#"/>
+
+                </div>
+                <div class="services-text col-lg-6">
+                  <h6>Why Choose Us</h6>
+                  <h3>What We Offer for You</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud.Lorem ipsum dolor sit amet, consectetur adipisicingelit,
+                  </p>
+                  <ul class="cont-4">
+                    <li>
+                    <span class="fa fa-check">
+                      
+                    </span>
+                    Certified Groomer
+                    </li>
+                    <li>
+                    <span class="fa fa-check">
+                      
+                    </span>
+                    10 Years of Experience
+                    </li>
+                    <li>
+                    <span class="fa fa-check">
+                      
+                    </span>
+                    Pet Lover
+                    </li>
+                    <li>
+                    <span class="fa fa-check">
+                      
+                    </span>
+                    Customer Supports
+                    </li>
+                    <li>
+                    <span class="fa fa-check">
+                      
+                    </span>
+                    Veterinary Help
+                    </li>
+
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- Counter -->
+        <section id="counter">
+          <div class="counter_wrapper container">
+              <div class="counter_list row">
+                  <div class="counter_item col-lg-3 col-6">
+                      <span class="counter_number">730</span>
+                      <h4>Happy Clients</h4>
+
+                  </div>
+                  <div class="counter_item col-lg-3 col-6">
+                      <span class="counter_number">80</span>
+                      <h4>Professionals</h4>
+
+                  </div>
+                  <div class="counter_item col-lg-3 col-6">
+                      <span class="counter_number">812</span>
+                      <h4>Adopted Pets</h4>
+
+                  </div>
+                  <div class="counter_item col-lg-3 col-6">
+                      <span class="counter_number">90</span>
+                      <h4>Awards</h4>
+
+                  </div>
+
+              </div>
+
+
+          </div>
+
+      </section>
+
+      
+    
+
+    <!-- Plans -->
+
+    <section class="plans ">
+        <div class="container">
+            <div class="plans__content">
+                <p>Our Plans</p>
+                <h3>Affordable Packages</h3>
+            </div>
+            <div class="packages plans-sec-7">
+                <div class="packages__content pric-7-1">
+                    <div class="free">
+                        <div class="free__content">
+                            <h3>Standard Package</h3>
+                            <h4>
+                                <label>$</label>
+                                0
+                                <span>/Month</span>
+                            </h4>
+                        </div>
+                        <ul>
+                            <li>5 Dog Walk</li>
+                            <li>3 Vet Visit</li>
+                            <li>3 Pet Spa</li>
+                            <li>Free Supports</li>
+                            <li>Customer Support</li>
+                        </ul>
+                        <button class="btn btn-success">Get Started</button>
+                    </div>
+                </div>
+                <div class="packages__content">
+                    <div class="standard">
+                        <div class="standard__content">
+                            <div class="standard__top">
+                                <h5>Save 10%</h5>
+                                <h3>Standard Package</h3>
+                                <h4>
+                                    <label>$</label>
+                                    39
+                                    <span>/Month</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="standard__bottom">
+                            <ul>
+                                <li>5 Dog Walk</li>
+                                <li>3 Vet Visit</li>
+                                <li>3 Pet Spa</li>
+                                <li>Free Supports</li>
+                                <li>Customer Support</li>
+                            </ul>
+                            <button class="btn btn-success">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="packages__content .pric-7-2">
+                    <div class="pro">
+                        <div class="pro">
+                            <h3>Standard Package</h3>
+                            <h4>
+                                <label>$</label>
+                                89
+                                <span>/Month</span>
+                            </h4>
+                        </div>
+                        <ul>
+                            <li>5 Dog Walk</li>
+                            <li>3 Vet Visit</li>
+                            <li>3 Pet Spa</li>
+                            <li>Free Supports</li>
+                            <li>Customer Support</li>
+                        </ul>
+                        <button class="btn btn-success">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Video  -->
+
+    <section class="video__trailer  ">
+        <div class="container">
+            <div>
+                <p>BETTER PET NUTRITION.</p>
+            <h1>The Finest Fresh Food And All Your Pet Needs.</h1>
+            <p class="container col-xl-12">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet elit consec tetur
+                adipisi elit. Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus explicabo
+                officia.
+            </p>
+            </div>
+            <div class="digital__video">
+                <img src="./img/banner2.jpg" alt="#" />
+                <a href="#video__content" class="play-button">
+                    <span class="video-play-icon">
+                        <span class="fa fa-play">
+    
+                        </span>
+                    </span>
+                    
+                </a>
+                <div id="video__content " class="video-hide video__content">
+                    <iframe
+                        src="https://player.vimeo.com/video/101587706?h=187bfc0989"
+                        width="780"
+                        height="398"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowfullscreen
+                        id="video__dogs"
+                    ></iframe>
+                    <i id="close__video" class="fa fa-times"></i>
+                </div>
+    
+                
+                
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- testimonials    -->
+    <section class="testimonials ">
+        <div class="container">
+            <div class="testimonials__content">
+                <p>TESTIMONIALS</p>
+                <h1>Happy Clients & Feedbacks</h1>
+            </div>
+            <div class="testimonial-width">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators ">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+    
+                    <!-- The slideshow -->
+    
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <div class="test">
+                                <div class="carousel__content ">
+                                    <blockquote>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae facilis
+                                            optio, numquam quaerat enim explicabo repellat recusandae fugit itaque aut.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <img src="./img/f1.jpg" alt="#" />
+                                        <div class="actor">
+                                            <h4>John Wilson</h4>
+                                            <p>Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel__content">
+                                    <blockquote>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae facilis
+                                            optio, numquam quaerat enim explicabo repellat recusandae fugit itaque aut.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <img src="./img/f2.jpg" alt="#" />
+                                        <div class="actor">
+                                            <h4>Julia sakura</h4>
+                                            <p>Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="test">
+                                <div class="carousel__content">
+                                    <blockquote>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae facilis
+                                            optio, numquam quaerat enim explicabo repellat recusandae fugit itaque aut.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <img src="./img/f3.jpg" alt="#" />
+                                        <div class="actor">
+                                            <h4>Roy Linderson</h4>
+                                            <p>Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel__content">
+                                    <blockquote>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae facilis
+                                            optio, numquam quaerat enim explicabo repellat recusandae fugit itaque aut.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <img src="./img/f4.jpg" alt="#" />
+                                        <div class="actor">
+                                            <h4>Mike Thyson</h4>
+                                            <p>Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="test container">
+                                <div class="carousel__content">
+                                    <blockquote>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae facilis
+                                            optio, numquam quaerat enim explicabo repellat recusandae fugit itaque aut.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <img src="./img/f2.jpg" alt="#" />
+                                        <div class="actor">
+                                            <h4>Laura gill</h4>
+                                            <p>Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel__content">
+                                    <blockquote>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae facilis
+                                            optio, numquam quaerat enim explicabo repellat recusandae fugit itaque aut.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <img src="./img/f3.jpg" alt="#" />
+                                        <div class="actor">
+                                            <h4>Smith Johnson</h4>
+                                            <p>Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- stayupdated  -->
+
+    <section class="stayupdated">
+        <div class="container">
+            <div class="stayupdated__head row">
+                <div class="col-lg-9 col-md-10 mx-auto">
+                    <h1>Stay Updated!</h1>
+                    <p>
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                        Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+                    </p>
+
+                    <div class="stayupdated__bottom">
+                        <input type="email" placeholder="Enter Your Email ..." />
+                        <button class="btn btn-success">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer  -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__head row">
+                <div class="contact__us col-lg-6 col-md-5 mx-auto">
+                    <h4>Contact information</h4>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>Address</strong>
+                                : #135 block, Barnard St. Brooklyn, London 10036, UK
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Phone : </strong>
+                                <a href="#">+(12)234-11-24</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Email : </strong>
+                                <a href="#">example@mail.com</a>
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="main-social-icon">
+                        <ul class="social-icon">
+                            <li><a href="#"  class="fab fa-facebook-square"></a></li>
+                        </ul>
+                        <ul class="social-icon">
+                            <li><a href="#" class="fab fa-twitter-square"></a></li>
+                            
+                        </ul>
+                        <ul class="social-icon">
+                            <li><a href="#" class="fab fa-dribbble-square"></a></li>
+                            
+                        </ul>
+                        <ul class="social-icon">
+                            <li><a href="#" class="fab fa-google-plus"></a></li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="footer__links col-lg-6 col-md-7 mx-auto">
+                    <div class="row">
+                        <div class="company col-lg-4 col-6">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Blog Posts</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">PricingUs</a></li>
+                            </ul>
+                        </div>
+                        <div class="quicklinks col-lg-4 col-6">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Create account</a></li>
+                                <li><a href="#">Care Center</a></li>
+                                <li><a href="#">Site Feedack</a></li>
+                            </ul>
+                        </div>
+                        <div class="support col-lg-4 col-6">
+                            <h4>Support</h4>
+                            <ul>
+                                <li><a href="#">All Dogs</a></li>
+                                <li><a href="#">Care Advices</a></li>
+                                <li><a href="#">Care Support</a></li>
+                                <li><a href="#">Veterinary Help</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="coppyright">
+            <p>
+                © 2020 Pooch Care. All Rights Reserved. Design by
+                <a href="#">W3Layouts</a>
+            </p>
+        </div>
+    </footer>
+
+    <div>
+        <a href="#" class="backtotop cd-top text-replace js-cd-top">
+            <i>⤴</i>
+        </a>
+    </div>
+
+    
+    
+    
+
+
+    
+
+      
+      
+
       
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+        
+        <script src="./countup/jquery.countup.js"></script>
+
+      <script >
+        $('.counter_number').countUp();
+        </script>
+        
+
+        <!-- back to top -->
+        
+        <script src="./backtotop/main.js"></script>
+        <script src="./backtotop/util.js"></script>
+
+        <script src="./main.js" ></script>
+        
+
+
+        
+
+  
+  
+    </body>
 </html>
