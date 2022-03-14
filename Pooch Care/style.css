@@ -46,6 +46,7 @@ p{
     left: 0;
     z-index: 1005;
     background-color: var(--primary-color);
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
     
     
 
@@ -818,6 +819,18 @@ background-color: white;
     justify-content: center;
     align-items: center;
 }
+.video__content i {
+    cursor: pointer;
+    color: #ffffff;
+    margin-bottom: 20%;
+    margin-left: 20px;
+}
+@media (max-width: 1324px){
+
+    .video__content i {
+        margin-bottom: 30%;
+    }
+    }
 
 
 /* testimonials */
